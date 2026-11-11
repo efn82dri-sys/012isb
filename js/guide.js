@@ -16,15 +16,15 @@ const gSeen={};
 try{gClosed=+sessionStorage.getItem('isb_guide_x')||0}catch(_){}
 const gOff=()=>gClosed>=2;               // کاربر دو بار × زده: دیگر خودکار صحبت نمی‌کنیم
 const gOn=()=>bub.classList.contains('on');
-const gBlocked=()=>{const c=document.body.classList;return panel.classList.contains('on')||c.contains('pgo')||c.contains('mo')||c.contains('mn')||document.hidden};
+const gBlocked=()=>{const c=document.body.classList;return panel.classList.contains('on')||c.contains('pgo')||c.contains('mo')||c.contains('mn')||c.contains('in-hero')||document.hidden};
 const coarse=()=>matchMedia('(pointer:coarse)').matches;
 const esc=x=>x.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const smS=(a,b,x)=>{x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)};
 /* موقعیت پیوستهٔ دوربین: 0 = خانه، 1..7 = بخش‌ها (همان prog() و easing در tick سه‌بعدی) */
 function gPos(){
   const E=[...document.querySelectorAll('#track>.sc')];if(!E.length)return 0;
-  const maxY=Math.max(0,document.documentElement.scrollHeight-innerHeight),y=Math.min(maxY,Math.max(0,window.__isbSY!=null?window.__isbSY:scrollY)),P=[0];
-  E.forEach(el=>{const r=el.getBoundingClientRect();P.push(Math.min(maxY,Math.max(0,r.top+scrollY+r.height/2-innerHeight/2)))});
+  const HO=hoff(),maxY=Math.max(0,document.documentElement.scrollHeight-innerHeight-HO),y=Math.min(maxY,Math.max(0,(window.__isbSY!=null?window.__isbSY:scrollY)-HO)),P=[0];
+  E.forEach(el=>{const r=el.getBoundingClientRect();P.push(Math.min(maxY,Math.max(0,r.top+scrollY+r.height/2-innerHeight/2-HO)))});
   for(let k=1;k<P.length;k++){if(y<=P[k]){const a=P[k-1],b=Math.max(a+1,P[k]);return k-1+(k==1?smS(Math.min(.85,innerHeight*1.2/b),1,Math.min(1,Math.max(0,(y-a)/(b-a)))):smS(.18,.82,Math.min(1,Math.max(0,(y-a)/(b-a)))))}}
   return E.length;
 }

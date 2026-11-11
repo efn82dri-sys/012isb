@@ -1,5 +1,5 @@
 /* نقطهٔ شروع سایت: همهٔ فایل‌های داده (data/*.json) را می‌خواند، آن‌ها را به ساختاری که کد انتظار دارد تبدیل می‌کند، بعد فایل‌های js را به ترتیب لود می‌کند.
-   ترتیب لود مهم است: i18n ← ui ← scene ← camera ← mascot ← guide. */
+   ترتیب لود مهم است: i18n ← ui ← scene ← camera ← mascot ← guide ← hero (متن‌ها) ← flythrough (پرواز سینمایی). */
 (function(){
   'use strict';
   var BASE_IMG='assets/images';
@@ -10,9 +10,10 @@
 
   Promise.all([
     get('data/fa.json'),get('data/en.json'),get('data/projects.json'),get('data/services.json'),
-    get('data/team.json'),get('data/chapters.json'),get('data/guide.json'),get('data/town.json'),get('data/images.json'),get('data/credentials.json'),get('data/clips.json').catch(function(){return []}),get('data/sarv.json'),get('data/contact.json')
+    get('data/team.json'),get('data/chapters.json'),get('data/guide.json'),get('data/town.json'),get('data/images.json'),get('data/credentials.json'),get('data/clips.json').catch(function(){return []}),get('data/sarv.json'),get('data/contact.json'),
+    get('data/hero.json').catch(function(e){console.warn('ISB: hero.json لود نشد؛ هیرو سینمایی غیرفعال شد',e);return null})
   ]).then(function(a){
-    var fa=a[0],en=a[1],projects=a[2],services=a[3],team=a[4],chapters=a[5],guide=a[6],town=a[7],images=a[8],credentials=a[9],clips=a[10],sarv=a[11],contact=a[12];
+    var fa=a[0],en=a[1],projects=a[2],services=a[3],team=a[4],chapters=a[5],guide=a[6],town=a[7],images=a[8],credentials=a[9],clips=a[10],sarv=a[11],contact=a[12],hero=a[13];
 
     /* --- داده‌های اصلی (D) --- */
     window.D={projects:projects,services:services.services,serviceGroups:services.groups,serviceStages:services.stages,educationalPrograms:services.educationalPrograms,
@@ -20,6 +21,8 @@
     window.CRED=credentials;
     window.SARV=sarv;
     window.CONTACT=contact;
+    window.HERO=hero;
+    if(!hero){var hs=document.getElementById('hero');if(hs)hs.remove();}
     window.CLIPS=(Array.isArray(clips)?clips:[]).filter(function(c){return c.active!==false});
     window.OFF=team.partnerOffices.map(pair);
 
@@ -48,7 +51,7 @@
       G[l]={head:g.headings,tips:g.tips,tipsS:g.shortTips,go:g.startButton,goT:g.ticketButton,no:g.laterButton,x:g.closeButton,tap:g.tapWords};});
     window.ISB_GUIDE_TEXT=G;
 
-    loadScripts(['js/i18n.js','js/lab.js','js/ui.js','js/scene.js','js/camera.js','js/mascot.js','js/guide.js']);
+    loadScripts(['js/i18n.js','js/lab.js','js/ui.js','js/scene.js','js/camera.js','js/mascot.js','js/guide.js','js/hero.js','js/flythrough.js']);
   }).catch(function(e){
     console.error('ISB: خطا در لود داده‌ها',e);
     document.body.insertAdjacentHTML('afterbegin',

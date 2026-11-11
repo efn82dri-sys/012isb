@@ -170,16 +170,16 @@ const labels=window.ISB_HUD_LABELS;
  const bars=[...root.children].map(x=>x.firstElementChild);
  const $=id=>document.getElementById(id);
  const sections=[...document.querySelectorAll('#track>.sc')];
- const maxScroll=()=>Math.max(1,document.documentElement.scrollHeight-innerHeight);
+ const maxScroll=()=>Math.max(1,document.documentElement.scrollHeight-innerHeight-hoff());
  let active=-1,raf=0;
  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
  function update(){
    raf=0;
-   const y=window.scrollY,ratio=clamp(y/maxScroll(),0,1);
+   const sY=window.scrollY,HO=hoff(),y=Math.max(0,sY-HO),ratio=clamp(y/maxScroll(),0,1);
    // Use chapter anchors, matching the 3D camera's seven scroll stops.
    const anchors=[0,...sections.map(el=>{
      const r=el.getBoundingClientRect();
-     return clamp(r.top+y+r.height/2-innerHeight/2,0,maxScroll());
+     return clamp(r.top+sY-HO+r.height/2-innerHeight/2,0,maxScroll());
    })];
    let idx=0,t=0;
    for(let i=1;i<anchors.length;i++){

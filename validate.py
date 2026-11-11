@@ -340,6 +340,33 @@ try:
 except FileNotFoundError:
     pass
 
+# ---------- هیرو سینمایی (data/hero.json) ----------
+hero = load('hero.json')
+if hero:
+    for k in ('ariaLabel', 'hint'):
+        for l in ('fa', 'en'):
+            if not (hero.get(k) or {}).get(l):
+                err(f'hero.json: {k}.{l} خالی است')
+    st = hero.get('stages') or []
+    if not st:
+        err('hero.json: stages خالی است')
+    prev_end = 0
+    for i, x in enumerate(st, 1):
+        for k in ('tag', 'title', 'text'):
+            for l in ('fa', 'en'):
+                if not (x.get(k) or {}).get(l):
+                    err(f'hero.json: مرحلهٔ {i}: {k}.{l} خالی است')
+        a, b = x.get('start'), x.get('end')
+        if not (isinstance(a, (int, float)) and isinstance(b, (int, float)) and 0 <= a < b <= 1):
+            err(f'hero.json: مرحلهٔ {i}: start و end باید عدد بین 0 و 1 باشند و start < end')
+        elif a < prev_end:
+            warn(f'hero.json: مرحلهٔ {i} با مرحلهٔ قبل هم‌پوشانی دارد')
+        else:
+            prev_end = b
+for rel in ('css/hero.css', 'js/hero.js', 'js/flythrough.js'):
+    if not os.path.exists(os.path.join(ROOT, rel)):
+        err(f'فایل هیرو پیدا نشد: {rel}')
+
 # ---------- گزارش ----------
 for w in warnings:
     print('هشدار:', w)

@@ -1,0 +1,30 @@
+{
+  "ariaLabel": { "fa": "پرواز سینمایی ISB", "en": "ISB cinematic flythrough" },
+  "hint": { "fa": "اسکرول کنید", "en": "Scroll" },
+  "stages": [
+    {
+      "start": 0.05, "end": 0.25, "panel": false,
+      "tag":   { "fa": "۰۱ · طراحی", "en": "01 · Design" },
+      "title": { "fa": "آغاز از اقلیم", "en": "Starting from climate" },
+      "text":  { "fa": "پیش از اولین خط، اقلیم، نور و محل پروژه را می‌خوانیم.", "en": "Before the first line, we read the climate, daylight and site of the project." }
+    },
+    {
+      "start": 0.26, "end": 0.44, "panel": false,
+      "tag":   { "fa": "۰۲ · شبیه‌سازی", "en": "02 · Simulation" },
+      "title": { "fa": "پیش از ساخت می‌بینیم", "en": "We see it before it is built" },
+      "text":  { "fa": "رفتار نور، انرژی و آسایش را با مدل‌سازی دقیق می‌سنجیم.", "en": "We test light, energy and comfort with precise modelling." }
+    },
+    {
+      "start": 0.52, "end": 0.72, "panel": true,
+      "tag":   { "fa": "۰۳ · آسایش", "en": "03 · Comfort" },
+      "title": { "fa": "فضایی که حس می‌شود", "en": "A space you can feel" },
+      "text":  { "fa": "هوا، نور روز و دما را برای کسی که داخل آن زندگی می‌کند طراحی می‌کنیم.", "en": "We design air, daylight and temperature for the person who lives inside." }
+    },
+    {
+      "start": 0.76, "end": 0.90, "panel": false,
+      "tag":   { "fa": "۰۴ · انرژی", "en": "04 · Energy" },
+      "title": { "fa": "از خورشید تا گواهی", "en": "From sun to certification" },
+      "text":  { "fa": "از بام تا رتبهٔ سرو سبز، مسیر پایداری را مستند می‌کنیم.", "en": "From the roof to the Sarv Sabz rating, we document the sustainability path." }
+    }
+  ]
+}
