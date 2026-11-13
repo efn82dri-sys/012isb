@@ -1,0 +1,8 @@
+{
+  "name": "ISB Group — گروه ساختمانی بنای پایدار ایران‌زمین",
+  "description": "گروه ساختمانی بنای پایدار ایران‌زمین (ISB Group) — راهکارهای هوشمند برای ساختمان‌های پایدار؛ دپارتمان‌های معماری، انرژی و سازه، پروژه‌های شاخص و آکادمی تخصصی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,1111 @@
+# MASTER PROMPT — ISB DIGITAL ARCHITECTURE EXPERIENCE
+## Premium 3D Architectural Website & Intelligent Learning Platform
+
+### 01 — YOUR ROLE
+
+Act as a world-class multidisciplinary digital product team consisting of:
+
+- Award-winning Creative Director specializing in premium architectural brands.
+- Senior UI/UX Designer and Figma Design Systems Architect.
+- Senior Frontend Engineer specializing in React, TypeScript and WebGL.
+- Senior 3D Creative Developer specializing in Three.js and React Three Fiber.
+- Senior Backend Architect specializing in secure full-stack applications.
+- Senior SEO, Accessibility and Web Performance Engineer.
+- Sustainable Architecture Specialist with expertise in building physics, energy efficiency, building systems and structural engineering.
+
+Your mission is to design and develop a complete, production-oriented digital platform for **ISB (Iran Sustainable Building Group / گروه ساختمانی بنای پایدار ایران‌زمین)**.
+
+Do not create a generic corporate website.
+
+Create an internationally competitive architectural digital experience that communicates intelligence, engineering precision, sustainability, innovation and architectural excellence.
+
+The final product must feel like a combination of:
+- An internationally acclaimed architecture studio.
+- A high-end digital architectural exhibition.
+- An intelligent engineering consultancy.
+- A premium online educational platform.
+- A sophisticated e-commerce experience.
+
+The result must be visually exceptional, technically robust, responsive, scalable and commercially functional.
+
+---
+
+### 02 — BRAND IDENTITY AND BUSINESS CONTEXT
+
+Brand name: ISB GROUP
+
+Persian name: گروه ساختمانی بنای پایدار ایران‌زمین
+
+Brand positioning:
+Smart Solutions for Sustainable Buildings.
+
+Core philosophy:
+Architecture, engineering, energy and technology must work together to create buildings that are aesthetically exceptional, structurally reliable, environmentally responsible and economically efficient.
+
+The company operates through three main departments:
+
+**A. Architecture & Urban Planning**
+- Architectural design.
+- Sustainable architecture.
+- Urban planning and urban design.
+- Interior architecture.
+- Building façade design.
+- Landscape and ecological design.
+- Parametric and computational design.
+- Architectural research and development.
+
+**B. Energy & Building Systems**
+- Building energy simulation.
+- Energy optimization.
+- Building physics.
+- Thermal comfort.
+- Daylight and artificial lighting analysis.
+- HVAC and mechanical systems.
+- Renewable energy systems.
+- Building envelope optimization.
+- Green building certification.
+- Building energy auditing.
+- Smart building systems.
+- Water management and indoor environmental quality.
+
+**C. Structural Engineering & Earthquake Design**
+- Structural engineering.
+- Seismic design and analysis.
+- Structural optimization.
+- Building safety and resilience.
+- Structural coordination with architectural and mechanical systems.
+- Advanced engineering analysis.
+
+Important: The third department's detailed team profiles and project portfolio must be editable through the CMS. Do not fabricate staff credentials, certifications or completed projects.
+
+Brand narrative:
+
+ISB is not simply an architectural office. It is an integrated knowledge-based group that connects architectural creativity with scientific analysis, engineering performance and sustainable development.
+
+The brand should communicate:
+Precision. Intelligence. Innovation. Sustainability. Integration. Trust.
+
+Use the uploaded company catalogue as the primary source for existing company information, actual project names, services, team profiles, educational courses, logo and visual identity.
+
+Never invent project statistics, awards, certifications, testimonials or professional qualifications.
+
+---
+
+### 03 — CREATIVE DIRECTION AND VISUAL LANGUAGE
+
+Create a highly sophisticated visual system inspired by internationally recognized architecture and design studios.
+
+Design references for visual direction:
+- Foster + Partners.
+- BIG (Bjarke Ingels Group).
+- Zaha Hadid Architects.
+- Snøhetta.
+- OMA.
+- SANAA.
+- Contemporary Swiss editorial design.
+- Premium digital art direction from award-winning creative studios.
+
+Do not copy any reference website. Use these references only to understand visual quality, information hierarchy and creative ambition.
+
+Design language:
+
+- Minimalist.
+- Architectural.
+- Experimental.
+- Editorial.
+- Precise.
+- Premium.
+- Timeless.
+- Technologically advanced.
+
+Avoid:
+- Generic corporate templates.
+- Excessive gradients.
+- Random floating shapes.
+- Unnecessary glassmorphism.
+- Excessive rounded cards.
+- Typical startup landing-page layouts.
+- Generic AI-generated corporate imagery.
+- Unnecessary animations.
+- Visual clutter.
+
+The interface should use deliberate asymmetry, large typography, controlled negative space, strong grids and carefully art-directed imagery.
+
+---
+
+### 04 — BRAND COLOR SYSTEM
+
+The uploaded ISB catalogue and official logo are the authoritative sources for the visual identity.
+
+Extract and analyze the actual brand colors from the supplied assets before defining the final design tokens.
+
+The catalogue's dominant visual direction is based on:
+- Deep architectural blue.
+- White.
+- Muted blue-violet.
+- Neutral light gray.
+- Dark charcoal.
+
+Create a professional color system with:
+
+1. Primary brand blue: sampled from the official logo and catalogue.
+2. Deep navy: for dark architectural sections.
+3. Secondary blue-violet: sampled from the catalogue.
+4. Pure white: for clean editorial layouts.
+5. Warm architectural gray: for backgrounds and separators.
+6. Charcoal: for primary typography.
+7. Subtle accent: only if justified by the brand identity.
+
+Do not invent arbitrary color values or replace the original logo colors with trendy colors.
+
+Create CSS variables and Figma color styles for all tokens.
+
+Ensure WCAG AA contrast for text and interactive components.
+
+The logo must always maintain its original proportions, geometry and clear space.
+
+---
+
+### 05 — TYPOGRAPHY SYSTEM
+
+Typography is one of the primary architectural elements of this website.
+
+Build a sophisticated typographic hierarchy.
+
+Persian:
+- Use a premium, readable Persian typeface such as Peyda, Dana or Vazirmatn, subject to licensing.
+- Carefully control Persian ligatures, kerning, line-height and RTL rendering.
+
+English:
+- Use a modern editorial sans-serif such as Inter, Manrope or a comparable licensed typeface.
+
+Create typography tokens for:
+- Display headings.
+- Hero typography.
+- H1, H2, H3, H4.
+- Section headings.
+- Body text.
+- Captions.
+- Navigation.
+- Project metadata.
+- Technical metrics.
+- Buttons.
+- Educational course information.
+
+Hero headlines must be large, expressive and highly legible.
+
+Never use typography as decoration at the expense of readability.
+
+The design must support both Persian and English without breaking the layout.
+
+---
+
+### 06 — FIGMA FIRST: DESIGN BEFORE DEVELOPMENT
+
+This requirement is mandatory.
+
+Do not jump directly into coding.
+
+Establish the entire UI/UX system in Figma before implementation.
+
+If direct Figma integration is unavailable, produce a Figma-ready design specification, component inventory, token system, layout descriptions and implementation-ready assets. Never claim that a Figma file has been created unless it actually exists.
+
+Create the following Figma pages:
+
+**Page 01 — Brand & Creative Direction**
+- Brand analysis.
+- Moodboard.
+- Visual references.
+- Color exploration.
+- Typography exploration.
+- Image art direction.
+- 3D visual direction.
+
+**Page 02 — Design System**
+- Color variables.
+- Typography styles.
+- Spacing system.
+- Grid system.
+- Buttons.
+- Navigation components.
+- Form elements.
+- Cards.
+- Modal components.
+- Icons.
+- Responsive breakpoints.
+- Interactive states.
+
+**Page 03 — Website Architecture**
+- Sitemap.
+- User journeys.
+- Information architecture.
+- User flows.
+- Navigation structure.
+
+**Page 04 — Desktop UI**
+Design all major pages at 1440px and 1920px widths.
+
+**Page 05 — Tablet UI**
+Design at 768px and intermediate widths.
+
+**Page 06 — Mobile UI**
+Design at 390px and 430px widths.
+
+**Page 07 — Interactive Prototypes**
+- Navigation transitions.
+- Hero interactions.
+- Project browsing.
+- Project detail experience.
+- Course purchase journey.
+- Login and registration.
+- User dashboard.
+- Checkout process.
+
+**Page 08 — Developer Handoff**
+- Component specifications.
+- Spacing and dimensions.
+- Interaction documentation.
+- Design tokens.
+- Asset export specifications.
+- Responsive behavior.
+- Accessibility requirements.
+
+Before coding, validate the hierarchy, navigation, responsive behavior and core user journeys.
+
+Do not use a desktop design simply scaled down for mobile. Create a genuinely responsive mobile experience.
+
+---
+
+### 07 — WEBSITE INFORMATION ARCHITECTURE
+
+Build the website with the following structure.
+
+**01. Home**
+
+**02. About ISB**
+- Company introduction.
+- Vision and mission.
+- Philosophy.
+- Leadership.
+- Departments.
+- Professional team.
+- Scientific advisors.
+- Company capabilities.
+
+**03. Departments**
+- Architecture & Urban Planning.
+- Energy & Building Systems.
+- Structural Engineering & Earthquake Design.
+
+Each department needs its own landing page, services, team profiles, relevant projects and contact CTA.
+
+**04. Services**
+Create individual service pages with detailed descriptions, relevant imagery and project connections.
+
+**05. Projects**
+- All projects.
+- Architecture.
+- Urban development.
+- Energy performance.
+- Building systems.
+- Structural engineering.
+- Sustainable buildings.
+
+Include filtering by category, year, location and service.
+
+**06. Project Detail**
+Each project must have a dedicated editorial case-study page.
+
+**07. ISB Academy**
+- All courses.
+- Upcoming workshops.
+- Professional training.
+- Recorded courses.
+- Course categories.
+- Instructor profiles.
+- Course details.
+- Student enrollment.
+
+**08. Research & Insights**
+- Articles.
+- Technical publications.
+- Case studies.
+- Research.
+- Industry insights.
+
+**09. Contact**
+- Contact form.
+- Office address.
+- Telephone.
+- Instagram.
+- Location map.
+- Consultation request.
+
+**10. Authentication**
+- Login.
+- Registration.
+- Password recovery.
+- Email verification.
+- User profile.
+
+**11. User Dashboard**
+- Purchased courses.
+- Course progress.
+- Certificates.
+- Orders.
+- Receipts.
+- Profile settings.
+
+**12. Shopping Cart & Checkout**
+- Cart.
+- Order summary.
+- Payment.
+- Payment confirmation.
+- Failed payment.
+- Order history.
+
+---
+
+### 08 — THE HERO EXPERIENCE: THE SIGNATURE 3D MOMENT
+
+The homepage hero must be the most memorable element of the entire experience.
+
+Create an immersive, cinematic, interactive 3D architectural environment.
+
+Concept:
+
+"ONE BUILDING. THREE DISCIPLINES. ONE SUSTAINABLE FUTURE."
+
+Visual scenario:
+
+A sophisticated architectural structure appears in a minimal spatial environment.
+
+The building is initially represented through precise parametric wireframes.
+
+As the camera moves forward, the structure progressively becomes a detailed architectural model.
+
+The model then separates into three coordinated layers:
+
+Layer 01 — Architecture:
+A refined architectural volume, façade geometry, spatial organization and urban context.
+
+Layer 02 — Energy:
+An exploded visualization of thermal envelope, sunlight, daylight distribution, airflow and renewable energy.
+
+Layer 03 — Structure:
+A structural skeleton revealing columns, beams, cores and seismic-resistance concepts.
+
+The three systems then merge into one integrated building.
+
+The final composition represents ISB's multidisciplinary philosophy.
+
+3D implementation:
+- React Three Fiber.
+- Three.js.
+- WebGL.
+- GSAP for controlled transitions.
+- ScrollTrigger where appropriate.
+- Physically based materials.
+- Realistic lighting.
+- Ambient occlusion.
+- Subtle reflections.
+- Carefully optimized geometry.
+
+Camera behavior:
+- Cinematic perspective.
+- Controlled camera movement.
+- Subtle mouse parallax on desktop.
+- Scroll-driven transitions.
+- Smooth transitions between architectural states.
+- No aggressive or disorienting camera movement.
+
+The camera experience must feel like exploring an architectural model in a high-end digital exhibition.
+
+Hero text:
+
+Primary:
+"Beyond Architecture.
+Towards a Sustainable Future."
+
+Persian alternative:
+«فراتر از معماری؛ در مسیر آینده‌ای پایدار»
+
+Supporting text:
+"Integrating Architecture, Engineering and Building Intelligence."
+
+CTA 01:
+Explore Our Projects
+
+CTA 02:
+Discover ISB
+
+Add a subtle scroll indicator.
+
+The 3D model must remain visually impressive without compromising text readability.
+
+On mobile:
+Use a simplified optimized 3D scene or a high-quality rendered fallback. Never force a heavy desktop scene onto a mobile device.
+
+Respect prefers-reduced-motion and provide a static fallback.
+
+The first meaningful content must appear immediately, even if the 3D scene is still loading.
+
+---
+
+### 09 — HOMEPAGE EXPERIENCE
+
+Build the homepage as a carefully art-directed architectural narrative.
+
+Section 01 — Cinematic 3D Hero.
+
+Section 02 — Brand Manifesto.
+
+A large typographic statement:
+
+"We don't design buildings in isolation.
+We design integrated systems for a better future."
+
+Use an elegant scroll reveal.
+
+Section 03 — Three Core Disciplines.
+
+Present three large visual panels:
+
+01 Architecture & Urban Planning.
+02 Energy & Building Systems.
+03 Structural Engineering & Earthquake Design.
+
+Each panel should have its own visual identity, subtle interaction and dedicated navigation.
+
+Section 04 — Selected Projects.
+
+Display selected architectural and engineering projects using large imagery, editorial grids and immersive transitions.
+
+Use authentic company project photographs from the supplied catalogue and additional approved assets.
+
+Section 05 — Our Integrated Approach.
+
+Explain how architecture, energy and structure collaborate throughout a building's lifecycle.
+
+Use an elegant interactive diagram.
+
+Section 06 — Performance & Sustainability.
+
+Show technical analysis and real verified data where available.
+
+Potential metrics:
+- Energy consumption.
+- Thermal comfort.
+- Daylight performance.
+- Envelope optimization.
+- Water efficiency.
+
+Never invent quantitative results.
+
+Section 07 — ISB Academy.
+
+Present educational courses as premium editorial product cards.
+
+Section 08 — Research & Insights.
+
+Feature technical articles and knowledge-sharing content.
+
+Section 09 — Contact / Consultation CTA.
+
+Section 10 — Premium Footer.
+
+---
+
+### 10 — PROJECT PORTFOLIO: ARCHITECTURAL STORYTELLING
+
+The projects section must feel like a curated international architecture publication.
+
+Use the actual project information in the supplied catalogue.
+
+Initial project entries include:
+
+- مجتمع مسکونی مهرگان.
+- کارگاه تیجش انرژی.
+- کارخانه تولیدی فراپانل.
+- ساختمان مینرت مشهد.
+- پروژه‌های مسکونی کرمان.
+- ساختمان مسکونی فرهنگ.
+- ساختمان مسکونی یاس.
+- سایر پروژه‌های درج‌شده در کاتالوگ.
+
+Preserve the original project names and verified details.
+
+Every project detail page should include:
+
+1. Project title.
+2. Location.
+3. Completion year.
+4. Architect or design team.
+5. Project category.
+6. ISB department involved.
+7. Scope of work.
+8. Project narrative.
+9. Architectural photography.
+10. Technical diagrams.
+11. Energy and performance analysis where available.
+12. Design strategies.
+13. Relevant technical metrics.
+14. Related projects.
+
+Use an editorial composition with:
+- Full-width hero imagery.
+- Asymmetric image grids.
+- Technical drawings.
+- Interactive diagrams.
+- Image comparisons.
+- Subtle scroll transitions.
+- Clear project metadata.
+
+Projects should be manageable through the CMS.
+
+---
+
+### 11 — ISB ACADEMY: THE EDUCATIONAL COMMERCE SYSTEM
+
+Build a fully functional learning platform integrated into the corporate website.
+
+This is not a simple course listing.
+
+It must operate as an actual educational commerce product.
+
+Course catalog:
+- Professional course on National Building Regulations Chapter 19.
+- Green Building Development Workshop.
+- Green Façades and Sustainable Architecture.
+- Introduction to Iran's Green Building Rating System (SERO SABZ).
+
+Use the uploaded catalogue as the source of the initial course content.
+
+Course cards should display:
+- Course image.
+- Course title.
+- Instructor.
+- Short description.
+- Duration.
+- Course format.
+- Price.
+- Availability.
+- Enrollment CTA.
+
+Individual course pages:
+- Course overview.
+- Learning objectives.
+- Curriculum.
+- Instructor profile.
+- Target audience.
+- Requirements.
+- Duration.
+- Price.
+- Frequently asked questions.
+- Registration and payment.
+
+Course purchasing journey:
+
+1. User opens a course.
+2. Reviews its details.
+3. Clicks Enroll.
+4. Logs in or creates an account.
+5. Proceeds to checkout.
+6. Reviews the order.
+7. Completes payment through a supported payment gateway.
+8. Receives verified payment confirmation.
+9. Gains access to the purchased course.
+10. Course appears in the user's dashboard.
+
+Implement an expandable system for future:
+- Video lessons.
+- Downloadable resources.
+- Student progress tracking.
+- Online assessments.
+- Certificates.
+- Instructor dashboard.
+- Course management.
+
+Never expose paid course content to unauthorized users.
+
+---
+
+### 12 — AUTHENTICATION AND USER EXPERIENCE
+
+Build a secure authentication system.
+
+Required functionality:
+- Email registration.
+- Login.
+- Password reset.
+- Email verification.
+- Secure session management.
+- User profile.
+- Purchase history.
+- Course access permissions.
+- Logout.
+
+User roles:
+- Guest.
+- Student.
+- Instructor.
+- Administrator.
+
+The login experience should be elegant, minimal and consistent with the main visual identity.
+
+Do not make login a barrier to browsing projects or reading public content.
+
+Only require authentication when the user wants to enroll, purchase or access protected resources.
+
+---
+
+### 13 — PAYMENT AND E-COMMERCE
+
+Design the platform to support a suitable Iranian payment gateway and future international payment integrations.
+
+Requirements:
+- Server-side payment initiation.
+- Secure gateway callback verification.
+- Transaction status management.
+- Unique order IDs.
+- Idempotent payment confirmation.
+- Order history.
+- Receipts.
+- Failed payment handling.
+- Refund workflow.
+- Access control after confirmed payment.
+
+Never store card numbers, CVV or sensitive payment credentials.
+
+Never trust a client-side success message as proof of payment.
+
+Use sandbox mode for initial integration.
+
+Keep gateway credentials in server-side environment variables.
+
+If gateway credentials are unavailable, implement the complete checkout UI and a clearly labeled sandbox/demo flow without pretending that real payments are operational.
+
+---
+
+### 14 — INTELLIGENT DIGITAL EXPERIENCE
+
+Integrate intelligence into the website only where it creates genuine value.
+
+Potential features:
+
+**Smart Project Discovery**
+Allow visitors to filter projects by building type, service, location and sustainability objectives.
+
+**Intelligent Service Navigator**
+Ask visitors a few relevant questions about their project and suggest the most relevant ISB department and services.
+
+**AI Consultation Assistant**
+An optional assistant that answers questions about publicly available ISB services, projects and courses using approved company information.
+
+**Smart Course Recommendation**
+Suggest relevant educational courses based on the visitor's professional interests.
+
+**Technical Knowledge Search**
+Allow users to search articles, projects and educational resources.
+
+Important:
+- Never fabricate technical advice or company credentials.
+- Clearly distinguish AI-generated guidance from verified engineering consultation.
+- Do not represent AI output as professional structural or safety certification.
+- Protect personal information.
+- Require consent before collecting personal data.
+
+---
+
+### 15 — NAVIGATION AND INTERACTION DESIGN
+
+Create a premium navigation experience.
+
+Desktop:
+- Minimal top navigation.
+- Logo.
+- Projects.
+- Departments.
+- Services.
+- Academy.
+- About.
+- Contact.
+- Language switcher.
+- Account icon.
+
+Use a transparent or minimal header over the hero, transitioning to a refined solid background after scrolling.
+
+Add a well-designed mega menu for departments and services where useful.
+
+Mobile:
+- Compact navigation.
+- Elegant full-screen menu.
+- Large readable navigation items.
+- Clearly accessible login and Academy links.
+
+Interaction principles:
+- Smooth transitions.
+- Consistent hover states.
+- Subtle image reveals.
+- Meaningful scroll animations.
+- Clear feedback for all actions.
+- Keyboard-accessible navigation.
+- No unnecessary cursor gimmicks.
+
+---
+
+### 16 — MOTION DESIGN SYSTEM
+
+Motion must reinforce the architectural narrative.
+
+Use:
+- GSAP.
+- ScrollTrigger.
+- Framer Motion for interface transitions.
+- React Three Fiber for 3D interactions.
+
+Motion concepts:
+- Architectural model assembly.
+- Section-based camera movement.
+- Subtle typography reveals.
+- Image masking.
+- Project image transitions.
+- Navigation transitions.
+- Interactive technical diagrams.
+
+Avoid:
+- Excessive parallax.
+- Continuous unnecessary animation.
+- Long loading transitions.
+- Scroll hijacking.
+- Animations that block user interaction.
+
+Use transform and opacity where possible.
+
+All animations must respect reduced-motion preferences.
+
+---
+
+### 17 — RESPONSIVE DESIGN
+
+Create separate responsive experiences for:
+
+- Large desktop: 1920px.
+- Desktop: 1440px.
+- Laptop: 1280px.
+- Tablet: 768px.
+- Mobile: 430px.
+- Small mobile: 360px.
+
+Requirements:
+- No horizontal overflow.
+- Correct RTL behavior.
+- Responsive typography.
+- Optimized image crops.
+- Touch-friendly controls.
+- Accessible navigation.
+- Readable project details.
+- Fast mobile loading.
+- Optimized 3D experience.
+- Responsive checkout forms.
+
+Mobile is a first-class product, not a secondary adaptation.
+
+---
+
+### 18 — TECHNICAL ARCHITECTURE
+
+Use a modern, maintainable full-stack architecture.
+
+Recommended stack:
+
+Frontend:
+- React.
+- TypeScript.
+- Vite or an appropriate supported application framework.
+- Tailwind CSS.
+- Reusable component architecture.
+
+3D:
+- Three.js.
+- React Three Fiber.
+- Drei.
+- GSAP.
+
+Animation:
+- Framer Motion.
+- GSAP ScrollTrigger.
+
+Backend:
+- A secure server-side API.
+- Supabase or an equivalent supported backend.
+- PostgreSQL database.
+- Authentication and authorization.
+- Secure file storage.
+
+CMS:
+- A structured, admin-managed content system for projects, departments, courses, team members, articles and site settings.
+
+The implementation must be compatible with Google AI Studio's actual supported Build environment.
+
+Do not assume that frontend code alone is sufficient for authentication, payment or database operations.
+
+Use server-side functions for privileged operations.
+
+Separate:
+- UI components.
+- Application logic.
+- Data access.
+- Authentication.
+- Payment processing.
+- CMS operations.
+- 3D scene components.
+
+Use environment variables for all secrets.
+
+---
+
+### 19 — CONTENT MANAGEMENT SYSTEM
+
+Build a secure admin dashboard.
+
+Administrators must be able to:
+
+- Create and edit projects.
+- Upload project photographs.
+- Manage project categories.
+- Add department information.
+- Manage team profiles.
+- Publish courses.
+- Edit course pricing.
+- Manage student enrollment.
+- View orders.
+- Review transactions.
+- Publish articles.
+- Manage homepage content.
+- Edit SEO metadata.
+- Manage site language content.
+
+Use role-based access control.
+
+Do not expose administrator functionality to regular users.
+
+---
+
+### 20 — PERFORMANCE AND INVISIBLE QUALITY
+
+The website must feel fast, stable and technically refined.
+
+Performance is a core design requirement.
+
+Target:
+- Lighthouse Performance: 90+ where practical.
+- Accessibility: 95+.
+- Best Practices: 95+.
+- SEO: 95+.
+
+Use these as optimization targets, not guaranteed scores.
+
+Requirements:
+
+Images:
+- WebP or AVIF.
+- Responsive image sizes.
+- Lazy loading below the fold.
+- Correct dimensions to prevent layout shifts.
+- High-quality art direction.
+
+3D:
+- Compressed models.
+- Optimized geometry.
+- Efficient materials.
+- Controlled draw calls.
+- Lazy-loaded 3D scenes.
+- Adaptive quality.
+- Reduced mobile complexity.
+- Static fallbacks.
+
+Code:
+- Code splitting.
+- Route-based lazy loading.
+- Optimized dependencies.
+- Minimal unnecessary JavaScript.
+- Avoid unnecessary re-renders.
+- Use proper caching.
+
+Core Web Vitals targets:
+- LCP: 2.5 seconds or less.
+- INP: 200 milliseconds or less.
+- CLS: 0.1 or less.
+
+Prioritize a fast first meaningful paint and immediate access to content.
+
+Do not allow the 3D hero to block the entire website.
+
+---
+
+### 21 — SEO, ACCESSIBILITY AND SECURITY
+
+SEO:
+- Semantic HTML.
+- Unique page titles.
+- Meta descriptions.
+- Open Graph.
+- XML sitemap.
+- Robots.txt.
+- Canonical URLs.
+- Structured data for relevant projects, courses and organization information.
+- Proper heading hierarchy.
+- Persian and English SEO support.
+
+Accessibility:
+- WCAG 2.2 AA as the design target.
+- Keyboard navigation.
+- Visible focus states.
+- Alt text.
+- Accessible forms.
+- Proper labels.
+- Sufficient color contrast.
+- Screen reader compatibility.
+- Reduced motion support.
+
+Security:
+- Server-side validation.
+- Input sanitization.
+- Authorization checks.
+- Secure authentication.
+- Rate limiting.
+- Protection against common web vulnerabilities.
+- Secure file upload validation.
+- Payment callback verification.
+- No exposed API keys.
+- No sensitive information in client-side code.
+
+---
+
+### 22 — CONTENT AND LANGUAGE STRATEGY
+
+Primary language: Persian (fa-IR).
+
+Secondary language: English (en).
+
+Default experience:
+- Persian.
+- RTL layout.
+- Persian typography.
+- Correct Persian numerals where appropriate.
+
+English experience:
+- LTR layout.
+- English typography.
+- Properly mirrored navigation and layout behavior.
+
+Use a centralized translation system.
+
+Never translate brand names, technical standards, project names or professional terminology inaccurately.
+
+The content must sound like a professional architectural and engineering consultancy, not generic marketing copy.
+
+---
+
+### 23 — QUALITY ASSURANCE AND TESTING
+
+Before declaring the project complete, test:
+
+- Every route.
+- Every navigation link.
+- Every form.
+- Login and registration.
+- Password recovery.
+- Course enrollment.
+- Checkout.
+- Payment callbacks.
+- Course access permissions.
+- Admin permissions.
+- Responsive layouts.
+- Persian RTL.
+- English LTR.
+- Image loading.
+- 3D loading and fallback.
+- Keyboard navigation.
+- Error states.
+- Empty states.
+- Loading states.
+- Slow network conditions.
+
+Create a production-readiness checklist.
+
+Never mark a feature as complete unless it has actually been implemented and tested.
+
+---
+
+### 24 — EXECUTION STRATEGY
+
+Work in controlled development phases.
+
+**Phase 01 — Discovery**
+Analyze the uploaded catalogue, logo, brand colors, services, projects, educational content and company positioning.
+
+Identify missing information and never invent it.
+
+**Phase 02 — Figma & UX**
+Create the sitemap, user journeys, design system, wireframes, responsive layouts and interactive prototypes.
+
+**Phase 03 — Visual Development**
+Implement the homepage, navigation, typography system, project gallery and three-dimensional hero.
+
+**Phase 04 — Corporate Platform**
+Develop all department pages, service pages, project details, about page and contact system.
+
+**Phase 05 — Academy & Commerce**
+Develop course catalog, course details, accounts, dashboards, cart and payment integration.
+
+**Phase 06 — CMS & Backend**
+Implement content management, authentication, database structure, permissions and server-side operations.
+
+**Phase 07 — Optimization**
+Improve performance, accessibility, SEO, responsive behavior and security.
+
+**Phase 08 — Final QA**
+Run complete functional and visual tests.
+
+Do not attempt to generate the entire platform as one uncontrolled code dump.
+
+Build incrementally while maintaining a consistent design system and working application.
+
+After each phase:
+1. Summarize what has actually been implemented.
+2. List remaining work.
+3. Identify missing assets or credentials.
+4. Test the relevant features.
+5. Continue to the next phase without unnecessarily redesigning completed components.
+
+---
+
+### 25 — FINAL CREATIVE STANDARD
+
+The finished website should communicate the following within the first few seconds:
+
+"This is not a conventional architectural office. This is an integrated architectural and engineering intelligence platform."
+
+It should be distinctive enough to be remembered, minimal enough to feel timeless, technically advanced enough to represent the future and practical enough to convert visitors into clients and students.
+
+The final experience must combine:
+- Architectural excellence.
+- Engineering intelligence.
+- Sustainable thinking.
+- Immersive 3D storytelling.
+- Editorial visual design.
+- A functional educational marketplace.
+- Secure digital commerce.
+- Outstanding mobile performance.
+
+Do not sacrifice usability for visual effects.
+
+Do not sacrifice performance for 3D.
+
+Do not sacrifice brand identity for trends.
+
+Do not sacrifice technical reliability for visual demonstrations.
+
+**Build ISB as a world-class digital architecture experience.**

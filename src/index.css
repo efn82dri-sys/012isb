@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  /* Official ISB Brand Colors (Sampled from ISB Logo & Mashhad Catalogue) */
+  --isb-blue: #223981;
+  --isb-blue-deep: #1E3980;
+  --isb-navy: #0B1536;
+  --isb-navy-obsidian: #07102B;
+  --isb-navy-soft: #132152;
+  --isb-blue-violet: #4D63AD;
+  --isb-green: #03A54E;
+  --isb-green-hover: #028C42;
+  --isb-green-text: #027A3B;
+  --isb-green-btn: #027D3D;
+  --isb-green-btn-hover: #026832;
+  --isb-gold-text: #8A6914;
+
+  /* 60-30-10 Editorial Neutrals */
+  --isb-canvas: #FAFBFD;
+  --isb-pure: #FFFFFF;
+  --isb-surface: #F2F4F8;
+  --isb-charcoal: #141923;
+  --isb-muted: #525C6E;
+  --isb-hairline: rgba(20, 25, 35, 0.09);
+  --isb-border: rgba(20, 25, 35, 0.14);
+  --isb-hairline-dark: rgba(255, 255, 255, 0.12);
+
+  /* Semantic Feedback Tokens */
+  --isb-success: #027A3B;
+  --isb-warning: #B45309;
+  --isb-error: #DC2626;
+  --isb-info: #223981;
+
+  /* Layout, Radius & Motion Tokens */
+  --isb-container-max: 1360px;
+  --isb-nav-height: 64px;
+  --isb-radius-sm: 4px;
+  --isb-radius-md: 6px;
+  --isb-radius-lg: 10px;
+  --isb-radius-xl: 12px;
+  --isb-ease-ui: cubic-bezier(0.16, 1, 0.3, 1);
+  --isb-duration-ui: 180ms;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--isb-canvas);
+  color: var(--isb-charcoal);
+}
+
+html[lang="fa"] body {
+  font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+  font-feature-settings: "ss01", "tnum";
+}
+
+html[lang="en"] body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Architectural hairline grid utilities */
+.hairline-b {
+  border-bottom: 1px solid var(--isb-hairline);
+}
+
+.hairline-t {
+  border-top: 1px solid var(--isb-hairline);
+}
+
+.hairline-border {
+  border: 1px solid var(--isb-hairline);
+}
+
+.isb-transition {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: var(--isb-duration-ui);
+  transition-timing-function: var(--isb-ease-ui);
+}
+
+.isb-focus-ring:focus-visible,
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--isb-green);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
